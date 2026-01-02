@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Page</title>
+</head>
+<body>
+<h1>WELCOME TO CODEUTSAV 10.0</h1>
+<h2>EVENT DETAILS</h2>
+<table border="3">
+    <tr>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Venue</th>
+    </tr>
+    <tr>
+        <td>10:00 AM</td>
+        <td>Opening Ceremony</td>
+        <td>HIRA Auditorium</td>
+    </tr>
+    <tr>
+        <td>12:00 PM</td>
+        <td>Workshop</td>
+        <td>CCC Lab</td>
+    </tr>
+    <tr>
+        <td>3:00 PM</td>
+        <td>Closing Ceremony</td>
+        <td>Architecture Auditorium</td>
+    </tr>
+</table>
+<h2>Registration Form</h2>
+<form action="action.php">
+
+    Name:
+    <input type="text"><br><br>
+
+    Email:
+    <input type="email"><br><br>
+
+    Mobile Number:
+    <input type="number"><br><br>
+
+    Ticket Type:<br>
+    <label for id="1"><input type="radio" name="ticket" id="1"> Normal<br></label>
+    <label for id="2"><input type="radio" name="ticket" id="2"> VIP<br></label>
+    <label for id="3"><input type="radio" name="ticket" id="3"> Student<br><br></label>
+
+    Workshops:<br>
+    <input type="radio"> Python<br>
+    <input type="radio"> Web Development<br>
+    <input type="radio"> AI<br><br>
+
+    Comments:<br>
+    <textarea rows="3" cols="25"></textarea><br><br>
+
+    <input type="submit" value="Register">
+</form>
+</body>
+</html>

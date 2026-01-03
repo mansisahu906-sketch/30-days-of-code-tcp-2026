@@ -9,4 +9,7 @@ day 1
 <img width="1279" height="705" alt="code2" src="https://github.com/user-attachments/assets/dd3d4dae-487e-4930-ab66-624deac14a35" />
 <img width="1366" height="720" alt="Screenshot 2026-01-02 225701" src="https://github.com/user-attachments/assets/1e59567d-1845-48de-9e27-d8d755f02705" />
 <img width="1353" height="726" alt="Screenshot 2026-01-02 225422" src="https://github.com/user-attachments/assets/6f6a1f53-96fc-4d64-b107-32ca0b8fa934" />
+<img width="1366" height="768" alt="Screenshot 2026-01-03 233413" src="https://github.com/user-attachments/assets/ecf3557a-f8f9-4205-a720-0b35a2a05f6c" />
+<img width="631" height="709" alt="Screenshot 2026-01-03 233518" src="https://github.com/user-attachments/assets/a9b510ab-e58f-47fe-8ecc-ebad019d9182" />
+
 

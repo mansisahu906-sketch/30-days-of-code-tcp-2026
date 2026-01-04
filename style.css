@@ -1,68 +1,94 @@
-* {
-  margin: 0;
-  padding: 0;
+:root {
+    --main-color: #4f46e5;
 }
-
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  color: #000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #f5f5f5;
+}
+.nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover {
+    color: var(--main-color);
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
 }
 
-.container {
-  width: 90%;
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-  background-color: white;
+.hero h1 {
+    animation: show 1s;
 }
 
-header {
-  text-align: center;
-  margin-bottom: 20px;
+.hero button {
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: white;
+    border: none;
 }
 
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: blue;
+.hero button:hover {
+    transform: scale(1.05);
 }
 
-nav a:hover {
-  text-decoration: underline;
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-.profile-img {
-  width: 150px;
-  border-radius: 50%;
-  display: block;
-  margin: 20px auto;
+.features {
+    display: flex;
+    gap: 15px;
+    padding: 30px;
 }
 
-.btn {
-  display: inline-block;
-  background-color: blue;
-  color: white;
-  padding: 8px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin: 10px 0;
+.card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
 }
 
-h1 {
-  margin-bottom: 10px;
+.card:hover {
+    box-shadow: 0 0 10px #ccc;
 }
 
-h2 {
-  margin-top: 20px;
+.pricing {
+    display: flex;
+    gap: 15px;
+    padding: 30px;
 }
 
-p {
-  margin-top: 10px;
+.price-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
 }
 
-.box {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin-top: 20px;
+.price-box:hover {
+    box-shadow: 0 0 10px #ccc;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #f5f5f5;
+}
+
+@media (max-width: 700px) {
+    .features,
+    .pricing {
+        flex-direction: column;
+    }
 }
